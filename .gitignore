@@ -1,0 +1,46 @@
+# Python
+.python-version
+venv/
+.venv/
+env/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Machine Learning
+# Trained models
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.pt
+models/
+
+# Large datasets and intermediate processing files
+data/
+*.csv
+*.json
+*.txt
+*.parquet
+*.feather
+*.npy
+*.npz
+results/
+output/
+experiments/
+
+# TensorBoard logs
+runs/
+
+# IDE and Editor
+.vscode/        # VS Code
+.idea/          # IntelliJ / PyCharm
+*.sublime-*     # Sublime Text
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+log/
